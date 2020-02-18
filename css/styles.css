@@ -1,0 +1,137 @@
+* {
+box-sizing: border-box;
+}
+
+
+#header-nav {
+  background-color: #909090;
+  border-radius: 0;
+  border: 0; 
+  min-height: 62px;
+  border:1px solid black;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+
+.navbar-brand h1 { 
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  background:white;
+  border: 1px solid black;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.col-xs-12,.col-md-12, .col-sm-12{
+  background:#909090;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+  background:#909090;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.col-sm-6, .col-md-4, .col-xs-12{
+    background-color: #A9A9A9;
+    position: relative;
+    border: 1px solid black;
+    margin: auto;
+    height:700px;
+    overflow-y: auto;
+  }
+
+  [class*="col-"] {
+    background-clip: padding-box;
+    border: 10px solid transparent;
+}
+
+
+
+/********** Medium devices only **********/
+
+/*@media (min-width: 768px) and (max-width: 991px) {
+ .col-md-1, .col-md-2, .col-md-3{
+    float: left;
+    background-color: #A9A9A9;
+    position: relative;
+    border: 1px solid black;
+    margin:10px;
+  }
+  .col-md-1 {
+    width: 47%;  
+  }
+  .col-md-2 {
+    width: 47%;
+  }
+  .col-md-3 {
+    width: 96%;
+  }
+   .block1:before{
+    content: 'Chicken'
+  }
+
+  .block2:before{
+    content: 'Beef';
+  }
+
+  .block3:before{
+    content: 'Sushi'
+  }
+
+
+   p{
+     margin-top:40px;
+  }
+  h1:before{
+    content:'Our Menu';
+    text-align: left;
+  }
+}*/
+
+/*@media (max-width: 767px) {
+   .col-sm-1, .col-sm-2, .col-sm-3{
+    float: left;
+    margin:10px;
+    position: relative;
+    background-color: #A9A9A9;
+    border: 1px solid black;
+
+  }
+  .col-sm-1 {
+    width: 100.00%;
+
+  }
+  .col-sm-2 {
+    width: 100.00%;
+  }
+  .col-sm-3 {
+    width: 100.00%;
+  }*/
